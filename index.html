@@ -7,7 +7,7 @@
 		<title>DALPHI - DALPHI Active Learning Platform for Human Interaction</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="night">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,35 +24,11 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
-					<script type="text/template">
-						# Introduction
-						![Dalphi Logo](img/dalphi-logo.svg)
-
-						- Annotations
-							- Scheduling
-							- Interface
-					</script type="text/template">
-				</section>
-				<section data-markdown>
-					<script type="text/template">
-						# Motivation
-					</script type="text/template">
-				</section>
-				<section data-markdown>
-					<script type="text/template">
-						# Terminology
-					</script type="text/template">
-				</section>
-				<section data-markdown>
-					<script type="text/template">
-						# Component's structure
-					</script type="text/template">
-				</section>
-				<section data-markdown>
-					<script type="text/template">
-						# Dalphi
-					</script type="text/template">
+				<section data-markdown="README.md"
+					data-separator="^---"
+					data-separator-vertical="^\n\n"
+					data-notes="^Note:"
+					data-charset="utf-8">
 				</section>
 			</div>
 		</div>
@@ -64,6 +40,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				slideNumber: true,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
