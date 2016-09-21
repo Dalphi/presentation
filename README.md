@@ -44,16 +44,34 @@
 
 ## Terminology
 
+- Service
 - Raw data
 - Annotation document
-- Project
-- Service
+- Statistic
 - Interface
+- Project
+
+
+### Service
+
+<img src="img/architecture/service.svg" style="border: 0; padding: 20px;" alt="Service" />
+
+- *any system* capable of communicating over HTTP
+- maintaining *problem specific* jobs
+- three types:
+	- Iterate
+	- Merge
+	- Machine Learning
 
 
 ### Raw data
 
+<img src="img/architecture/raw-data.svg" style="border: 0; padding: 20px;" alt="Raw data" />
+
 - data that needs *to be annotated*
+
+
+### Raw data
 
 `raw-data.json`  
 ```
@@ -75,29 +93,32 @@
 
 ### Annotation document
 
+<img src="img/architecture/annotation-document.svg" style="border: 0; padding: 20px;" alt="Annotation document" />
+
 - a *subset* of raw data
 - document which is *renderable* and *annotable*
 
 
+### Statistic
+
+<img src="img/architecture/statistic.svg" style="border: 0; padding: 20px;" alt="Statistic" />
+
+- *key-value* pair
+- mostly chronological numeric values
+
+
 ### Interface
+
+<img src="img/architecture/interface.svg" style="border: 0; padding: 20px;" alt="Interface" />
 
 - *problem specific* user interface
 - renders an annotation document as a subset of raw data
 
 
-### Service
-
-- *any system* capable of communicating over HTTP
-- maintaining *problem specific* jobs
-- three types:
-	- Iterate
-	- Merge
-	- Machine Learning
-
-
 ### Project
 
-...
+<img src="img/architecture/complete.svg" style="border: 0; padding: 20px; height: 40vh;" alt="Project" />
+
 
 ---
 
