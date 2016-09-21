@@ -19,8 +19,7 @@
 
 ---
 
-### Example
-## Named Entity Recognition
+## Example:<br />Named Entity Recognition
 
 - Inconvenient available annotation interfaces
 - Mostly with linguistic focus
@@ -147,7 +146,6 @@
 ### Project
 
 <img src="img/architecture/complete.svg" style="border: 0; padding: 20px; height: 40vh;" alt="Project" />
-
 
 ---
 
