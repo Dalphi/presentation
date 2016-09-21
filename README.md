@@ -8,7 +8,37 @@
 
 ## Motivation
 
-...
+- Supervised Machine Learning needs annotated data
+- Dalphi helps building and maintaining annotated data
+- Key features:
+  - Human readable presentation
+  - Parallel distribution to annotators
+  - Problem-agnostic document handling
+
+---
+
+## Example: Named Entity Recognition
+
+- Inconvenient available annotation interfaces
+- Mostly with linguistic focus
+- Only whole document views
+- No active server side to propose useful annotations
+- Distribution to annotators done manually
+
+
+### GATE
+
+<img src="img/screenshots/gate.png" style="height: 40vh;" alt="GATE" />
+
+
+### brat rapid annotation tool
+
+<img src="img/screenshots/brat.png" style="height: 40vh;" alt="brat" />
+
+
+### WebAnno
+
+<img src="img/screenshots/webanno.jpg" style="height: 40vh;" alt="WebAnno" />
 
 ---
 
@@ -137,3 +167,8 @@
 #### Edit Interface
 
 <img class="screenshot" src="img/screenshots/interfaces-edit.png" alt="Interfaces Edit" />
+
+
+#### Test Interface
+
+<img class="screenshot" src="img/screenshots/interfaces-show.png" alt="Interfaces Test" />
