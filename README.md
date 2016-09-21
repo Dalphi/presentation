@@ -9,20 +9,22 @@
 ## Motivation
 
 - Supervised Machine Learning needs annotated data
-- Dalphi helps building and maintaining annotated data
-- Key features:
-  - Human readable presentation
-  - Parallel distribution to annotators
-  - Problem-agnostic document handling
+- Existing training data are
+  - often outdated
+  - in military context
+  - too universal or too specific
+- Need to generate own training data
+- Existing solutions are time consuming and exhausting
+- ... and as such expensive
 
 ---
 
-## Example: Named Entity Recognition
+## Example:
+### Named Entity Recognition
 
 - Inconvenient available annotation interfaces
 - Mostly with linguistic focus
 - Only whole document views
-- No active server side to propose useful annotations
 - Distribution to annotators done manually
 
 
@@ -39,6 +41,31 @@
 ### WebAnno
 
 <img src="img/screenshots/webanno.jpg" style="height: 40vh;" alt="WebAnno" />
+
+---
+
+<p class="fragment">
+  To solve these problems, we restructured the way annotations are done fundamentally.
+</p>
+<p class="fragment">
+  We designed an iterative workflow to automate as much as we can and to save annotator's attention.
+</p>
+<p class="fragment">
+  And created the OpenSource project Dalphi.
+</p>
+
+---
+
+## Dalphi
+
+- Web application, runs everywhere
+- Helps building and maintaining annotated data
+- Key features:
+  - Iterating active learning supported workflow framework
+  - Human readable presentation
+  - Server side to propose useful annotations
+  - Parallel distribution to annotators
+  - Problem-agnostic document handling
 
 ---
 
@@ -119,12 +146,6 @@
 
 <img src="img/architecture/complete.svg" style="border: 0; padding: 20px; height: 40vh;" alt="Project" />
 
-
----
-
-## Dalphi
-
-- Ruby on Rails application
 
 ---
 
