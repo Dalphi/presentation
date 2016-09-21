@@ -100,7 +100,7 @@
 
 ### Raw data
 
-`raw-data.json`  
+`JSON`  
 ```
 {
 	"foo": "bar",
@@ -108,13 +108,13 @@
 }
 ```
 
-`raw-data.html`  
+`HTML`  
 ```
 <h1>Impressum</h1>
 <p>3antworten UG (haftungsbeschränkt)<br>Karl-Kunger Straße 64<br>12435 Berlin</p>
 ```
 
-`raw-data.jpg`  
+`JPG`  
 <img src="img/cat.jpg" style="height: 15vh;" alt="Cat" />
 
 
