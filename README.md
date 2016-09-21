@@ -165,3 +165,8 @@
 #### Edit Interface
 
 <img class="screenshot" src="img/screenshots/interfaces-edit.png" alt="Interfaces Edit" />
+
+
+#### Test Interface
+
+<img class="screenshot" src="img/screenshots/interfaces-show.png" alt="Interfaces Test" />
