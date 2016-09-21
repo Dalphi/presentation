@@ -1,6 +1,6 @@
 # DALPHI
 
-<img style="box-shadow: none; border: none; background: transparent; max-width: 75vw; max-height: 40vh;" src="img/dalphi-logo.svg" alt="Dalphi Logo" />
+<img style="box-shadow: none; border: none; background: transparent; max-width: 75vw; max-height: 30vh;" src="img/dalphi-logo.svg" alt="Dalphi Logo" />
 
 #### DALPHI Active Learning Platform for Human Interaction
 
@@ -17,7 +17,8 @@
 
 ---
 
-## Example: Named Entity Recognition
+### Example
+## Named Entity Recognition
 
 - Inconvenient available annotation interfaces
 - Mostly with linguistic focus
