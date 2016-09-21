@@ -44,15 +44,17 @@
 
 ---
 
-<p class="fragment">
-  To solve these problems, we restructured the way annotations are done fundamentally.
-</p>
-<p class="fragment">
-  We designed an iterative workflow to automate as much as we can and to save annotator's attention.
-</p>
-<p class="fragment">
-  And created the OpenSource project Dalphi.
-</p>
+<ul>
+  <li style="margin-bottom: 2rem;">
+    To solve these problems, we restructured the way annotations are done fundamentally.
+  </li>
+  <li class="fragment" style="margin-bottom: 2rem;">
+    We designed an iterative workflow to automate as much as we can and to save annotator's attention.
+  </li>
+  <li class="fragment">
+    And created the OpenSource project Dalphi.
+  </li>
+</ul>
 
 ---
 
