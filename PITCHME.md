@@ -195,6 +195,18 @@
 
 #VSLIDE
 
+#### Annotators
+
+<img class="screenshot" src="img/screenshots/projects-annotators.png" alt="Projects Annotators" />
+
+#VSLIDE
+
+#### Show Annotator
+
+<img class="screenshot" src="img/screenshots/projects-annotators-show.png" alt="Projects Annotators Show" />
+
+#VSLIDE
+
 #### Statistics table
 
 <img class="screenshot" src="img/screenshots/projects-statistics-table.png" alt="Projects Statistics Table" />
@@ -234,3 +246,15 @@
 #### Test Interface
 
 <img class="screenshot" src="img/screenshots/interfaces-show.png" alt="Interfaces Test" />
+
+#HSLIDE
+
+#### Annotators
+
+<img class="screenshot" src="img/screenshots/annotators.png" alt="Annotators" />
+
+#VSLIDE
+
+#### Edit Annotator
+
+<img class="screenshot" src="img/screenshots/annotators-edit.png" alt="Annotators Edit" />
